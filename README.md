@@ -1,4 +1,4 @@
-## obsws-python-settings
+# obsws-python-settings
 当リポジトリのコードを使いPythonライブラリの１つである"obsws-python"を使ってテキストソースの編集や、ソースIDなどの取得が可能です。
 
 ## はじめに
