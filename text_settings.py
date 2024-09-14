@@ -38,7 +38,7 @@ class SettingOBS:
             "font": {"size": 128, "face": "Arial"},
             "text": "test",
             "vertical": False,
-            "color": 0,
+            "color": 255,
             "opacity": 100,
             "gradient": False,
             "gradient_color": 0,
@@ -60,9 +60,10 @@ class SettingOBS:
 if __name__ == '__main__':
     source_name = "test"
     scene_name = "test_scene"
+    item_id = 1
 
     obsAdapter = SettingOBS()
 
     # obsAdapter.output_source_id(scene_name)
     # obsAdapter.output_settings(source_name)
-    # obsAdapter.change_text_settings(source_name, item_id, scene_name)
+    obsAdapter.change_text_settings(source_name, item_id, scene_name)
