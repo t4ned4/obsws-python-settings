@@ -25,12 +25,12 @@ pip install setuptools
 
 ## 使い方
 
-####　基本
+#### 基本
 1. .envファイルに必要な情報を入力する。
 2. OBS Studioを起動しておく
 3. 利用したいプログラムを実行する
 
-####　text_settings.py
+#### text_settings.py
 ###### output_source_id
 シーン内に配置されているソース(テキスト、画像など)のIDを出力します。
 IDを確認したいソースを含むシーンの名前を"scene_name"に入れてプログラムを実行してください。
