@@ -66,4 +66,4 @@ if __name__ == '__main__':
 
     # obsAdapter.output_source_id(scene_name)
     # obsAdapter.output_settings(source_name)
-    obsAdapter.change_text_settings(source_name, item_id, scene_name)
+    # obsAdapter.change_text_settings(source_name, item_id, scene_name)
